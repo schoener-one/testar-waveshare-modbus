@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "testar-waveshare-modbus"
+version = "0.1.0"
+description = "A project for testing Waveshare Modbus functionalities."
+authors = ["Denis Schoener <denis@schoener-one.de>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/yourusername/testar-waveshare-modbus"
+repository = "https://github.com/yourusername/testar-waveshare-modbus"
+keywords = ["modbus", "testing", "waveshare"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pytest = "^7.0"
+pre-commit = "^2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
