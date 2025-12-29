@@ -7,6 +7,7 @@
         "${workspaceFolder}/sources/poky/bitbake/lib",
         "${workspaceFolder}/sources/poky/meta/lib"
     ],
+    "editor.formatOnSave": true,
     "files.associations": {
         "*.conf": "bitbake",
         "*.inc": "bitbake"
